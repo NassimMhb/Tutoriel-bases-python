@@ -135,21 +135,38 @@ print("-----------------------------Fin de cours sur IN / NOT IN----------------
 
 
 print("**************************Cours sur IF / ELIF / ELSE*****************************")
+
 ageMajeur = 22
 
-if age == 18
+if ageMajeur == 18:
 	print("Tu viens d'être majeur")
-elif age == 50:
+elif ageMajeur == 50:
 	print("Tu viens d'avoir 50 ans")
-elif age == 60:
+elif ageMajeur == 60:
 	print("Tu viens d'avoir 60 ans")
 else:
-	print("Tu as", age, "ans")
+	print("Tu as", ageMajeur, "ans")
 
 print("-----------------------------Fin de cours sur IF / ELIF / ELSE------------------------")
 
 
 print("**************************Cours sur les booléens*****************************")
+
+jeu_charge = False 	# True = vrai (= 1)
+
+if not jeu_charge:
+	print("Le jeu est éteint")
+else:
+	print("Le jeu est lancé")
+
+
+ageMaj = input("Quel âge as-tu ?")
+ageMaj = int(ageMaj)
+
+if ageMaj > 0 and ageMaj < 100:
+	print("L'âge est validé")
+else:
+	print("L'âge est incorrect")
 
 
 print("-----------------------------Fin de cours sur les booléens------------------------")
